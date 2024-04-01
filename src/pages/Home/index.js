@@ -6,6 +6,7 @@ import BlogCard from '../../component/BlogCard'
 import TestCard from '../../component/TestCard'
 import { Link } from 'react-router-dom';
 import { useWindowSize } from '../../utitlity/helper'
+import "../Home/Home.css"
 
 
 export default function Index() {
@@ -52,7 +53,7 @@ export default function Index() {
 
       <div className='row m-sm-2 m-xs-2 m-md-5 m-lg-5 m-lg-5 m-3'>
         <div className='col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7'>
-           <span style={{color : '#00C5C1', letterSpacing : 2, fontSize : 30}} className='fw-bolder'>About us</span>
+           <span style={{color : '#00C5C1', letterSpacing : 2, fontSize : 50}} className='fw-bolder'>About us</span>
            <div className='fw-bold my-4' style={{fontSize : width < 600 ? 22 : 28, letterSpacing : 3, lineHeight : 1}}>Join Us on the Journey to Self-Care and Self-Expression</div>
            <p style={{fontSize : 12, color : '#AFAFAF'}} className='my-3'>Welcome to Bridechilla, where the pursuit of well-being meets the artistry of self-expression. Our mission is to unite a diverse team of dedicated experts, all focused on enhancing your overall wellness and ensuring you look and feel your absolute best. With Bridechilla, you gain direct access to a curated selection of top-notch professionals spanning various fields, right at your fingertips. <br></br><br></br>
 
@@ -100,37 +101,37 @@ export default function Index() {
         </p>
       </div>
 
-      <div className='p-5'>
-        <h1>Featured Services</h1>
-        <div className='row py-4 text-black bg-red-900' style={{height:"200vh" }}>
-<div className="up" style={{width:"100%" , height:"50%", display:"flex" , alignItems:"center" , justifyContent:"center" , gap:"100px"}} >
-  <div className="card" style={{width:"33%" , height:"fit-content" , backgroundColor:"#00C5C1" , padding:"20px" , textAlign:"left" , border:"none" , borderRadius:"30px"} } >
+      <div className='center'>
+        <h1 className="a" >Featured Services</h1>
+        <div className='main' >
+<div className="up">
+  <div className="card">
     <h3 style={{color:"#fff" , textAlign:"left"}} >01 Makeup Artist</h3>
-    <p style={{color:"#fff" , fontWeight:"300" , lineHeight:"25px" , fontSize:"16px"}} >Makeup Artist engages in a thorough exploration of the bride's face, delving into the intricacies of her unique features. With a keen understanding of face shape and structure, the artist expertly assesses the canvas, identifying key focal points and contours. Through this insightful analysis, tailored recommendations unfold, guiding the bride on the most flattering makeup choices for her distinct facial attributes. Whether it's enhancing cheekbones, defining eyes, or achieving a radiant complexion, the consultation becomes a collaborative journey where the artist imparts valuable insights, ensuring the bride feels</p>
+    <p >Makeup Artist engages in a thorough exploration of the bride's face, delving into the intricacies of her unique features. With a keen understanding of face shape and structure, the artist expertly assesses the canvas, identifying key focal points and contours. Through this insightful analysis, tailored recommendations unfold, guiding the bride on the most flattering makeup choices for her distinct facial attributes. Whether it's enhancing cheekbones, defining eyes, or achieving a radiant complexion, the consultation becomes a collaborative journey where the artist imparts valuable insights, ensuring the bride feels</p>
   </div>
-  <div className="card" style={{width:"33%" , height:"fit-content"  , backgroundColor:"#00C5C1" , padding:"20px" , textAlign:"left" , border:"none" , borderRadius:"30px"} } >
+  <div className="card" >
     <h3 style={{color:"#fff" , textAlign:"left"}} >02 Dermatologist</h3>
-    <p style={{color:"#fff" , fontWeight:"300" , lineHeight:"25px" , fontSize:"16px"}} >In the personalized consultation with the Dermatologist, the focus extends beyond skincare—it becomes a dedicated exploration of the bride's unique skin characteristics. The dermatologist meticulously examines the skin's texture, tone, and any specific concerns the bride may have. Through this comprehensive analysis, tailored skincare recommendations emerge, addressing not only immediate concerns but also ensuring long-term skin health. The consultation becomes a collaborative dialogue, with the dermatologist providing valuable insights on a personalized skincare regimen. Read More</p>
+    <p >In the personalized consultation with the Dermatologist, the focus extends beyond skincare—it becomes a dedicated exploration of the bride's unique skin characteristics. The dermatologist meticulously examines the skin's texture, tone, and any specific concerns the bride may have. Through this comprehensive analysis, tailored skincare recommendations emerge, addressing not only immediate concerns but also ensuring long-term skin health. The consultation becomes a collaborative dialogue, with the dermatologist providing valuable insights on a personalized skincare regimen. Read More</p>
   </div>
-  <div className="card" style={{width:"33%" , height:"fit-content"  , backgroundColor:"#00C5C1" , padding:"20px" , textAlign:"left" , border:"none" , borderRadius:"30px"} } >
+  <div className="card">
     <h3 style={{color:"#fff" , textAlign:"left"}} >03 Nutritionist</h3>
-    <p style={{color:"#fff" , fontWeight:"300" , lineHeight:"25px" , fontSize:"16px"}} >In the tailored consultation with the Nutritionist, the bride's journey towards a radiant and healthy glow takes center stage. The nutritionist dives into a thorough discussion, understanding the bride's dietary preferences, lifestyle, and any specific health objectives. Through this insightful conversation, a personalized and sustainable diet plan unfolds, carefully curated to support not just physical health but also skin vibrancy and overall well-being. The nutritionist imparts valuable guidance on nourishing foods, hydration strategies, and lifestyle adjustments, ensuring that the bride's dietary choices align with her aspirations for a radiant appearance on her special day. This collaborative effort becomes a transformative experience, setting the foundation for not only a beautiful wedding but a continued journey of wellness.</p>
+    <p >In the tailored consultation with the Nutritionist, the bride's journey towards a radiant and healthy glow takes center stage. The nutritionist dives into a thorough discussion, understanding the bride's dietary preferences, lifestyle, and any specific health objectives. Through this insightful conversation, a personalized and sustainable diet plan unfolds, carefully curated to support not just physical health but also skin vibrancy and overall well-being. The nutritionist imparts valuable guidance on nourishing foods, hydration strategies, and lifestyle adjustments, ensuring that the bride's dietary choices align with her aspirations for a radiant appearance on her special day. This collaborative effort becomes a transformative experience, setting the foundation for not only a beautiful wedding but a continued journey of wellness.</p>
   </div>
 
 
 </div>
-<div className="down" style={{width:"100%" , height:"50%" ,display:"flex" , alignItems:"center" , justifyContent:"center" , gap:"100px"}}  >
-<div className="card" style={{width:"33%" ,height:"fit-content" , backgroundColor:"#00C5C1" , padding:"20px" , textAlign:"left" , border:"none" , borderRadius:"30px"} } >
+<div className="down">
+<div className="card">
     <h3 style={{color:"#fff" , textAlign:"left"}} >04 Mental Health Coach </h3>
-    <p style={{color:"#fff" , fontWeight:"300" , lineHeight:"25px" , fontSize:"16px"}} >In the empathetic consultation with the Mental Health Coach, the focus shifts to the bride's emotional well-being, recognizing the significance of mental health on her overall wedding experience. The mental health coach engages in a compassionate dialogue, exploring the bride's emotions, stressors, and aspirations. Together, they navigate through strategies to manage pre-wedding jitters, set realistic expectations, and cultivate a positive mindset. The consultation becomes a safe space for the bride to express her feelings and receive practical tools for emotional resilience. From mindfulness techniques to personalized coping strategies, the mental health coach ensures the bride embarks on her wedding journey not only looking radiant but feeling emotionally empowered, ready to embrace the joy and challenges that come with this momentous occasion.</p>
+    <p >In the empathetic consultation with the Mental Health Coach, the focus shifts to the bride's emotional well-being, recognizing the significance of mental health on her overall wedding experience. The mental health coach engages in a compassionate dialogue, exploring the bride's emotions, stressors, and aspirations. Together, they navigate through strategies to manage pre-wedding jitters, set realistic expectations, and cultivate a positive mindset. The consultation becomes a safe space for the bride to express her feelings and receive practical tools for emotional resilience. From mindfulness techniques to personalized coping strategies, the mental health coach ensures the bride embarks on her wedding journey not only looking radiant but feeling emotionally empowered, ready to embrace the joy and challenges that come with this momentous occasion.</p>
   </div>
-  <div className="card" style={{width:"33%" , height:"fit-content"  , backgroundColor:"#00C5C1" , padding:"20px" , textAlign:"left" , border:"none" , borderRadius:"30px"} } >
+  <div className="card">
     <h3 style={{color:"#fff" , textAlign:"left"}} >05 Tarot Card Reader</h3>
-    <p style={{color:"#fff" , fontWeight:"300" , lineHeight:"25px" , fontSize:"16px"}} >In the enchanting consultation with the Tarot Card Reader, the bride embarks on a mystical exploration of her journey towards matrimony. The tarot card reader creates a sacred space, inviting the bride to share her hopes and dreams. Through the ancient art of tarot, the reader unveils insights into the bride's path, offering guidance and perspective on the unfolding chapters of her life. The consultation becomes a captivating and introspective experience, blending spiritual wisdom with the bride's personal narrative. The tarot card reader serves as a gentle guide, providing symbolic interpretations and encouraging reflection, adding a magical dimension to the bride's preparations. This unique and spiritual consultation aims to infuse the bride's wedding journey with a sense of wonder and purpose, ensuring she steps into her new chapter with clarity and inspiration.</p>
+    <p >In the enchanting consultation with the Tarot Card Reader, the bride embarks on a mystical exploration of her journey towards matrimony. The tarot card reader creates a sacred space, inviting the bride to share her hopes and dreams. Through the ancient art of tarot, the reader unveils insights into the bride's path, offering guidance and perspective on the unfolding chapters of her life. The consultation becomes a captivating and introspective experience, blending spiritual wisdom with the bride's personal narrative. The tarot card reader serves as a gentle guide, providing symbolic interpretations and encouraging reflection, adding a magical dimension to the bride's preparations. This unique and spiritual consultation aims to infuse the bride's wedding journey with a sense of wonder and purpose, ensuring she steps into her new chapter with clarity and inspiration.</p>
   </div>
-  <div className="card" style={{width:"33%" ,height:"fit-content" , backgroundColor:"#00C5C1" , padding:"20px" , textAlign:"left" , border:"none" , borderRadius:"30px"} } >
+  <div className="card" >
     <h3 style={{color:"#fff" , textAlign:"left"}} >06 Wardrobe Stylist </h3>
-    <p style={{color:"#fff" , fontWeight:"300" , lineHeight:"25px" , fontSize:"16px"}} >In the personalized consultation with the Wardrobe Stylist, the bride's journey towards finding the perfect ensemble becomes a collaborative and empowering experience. The wardrobe stylist begins by understanding the bride's body shape, style preferences, and the overall aesthetic she envisions for her wedding day. Through thoughtful dialogue, the stylist offers expert insights into flattering silhouettes, colors, and fabrics that complement the bride's unique features. From showcasing her best assets to ensuring comfort and confidence, the consultation becomes a tailored exploration of outfit ideas that align with the bride's vision. The wardrobe stylist curates a selection of attire options that not only capture the essence of the occasion but also resonate with the bride's personal style, making her feel not just adorned but truly radiant on her special day.</p>
+    <p >In the personalized consultation with the Wardrobe Stylist, the bride's journey towards finding the perfect ensemble becomes a collaborative and empowering experience. The wardrobe stylist begins by understanding the bride's body shape, style preferences, and the overall aesthetic she envisions for her wedding day. Through thoughtful dialogue, the stylist offers expert insights into flattering silhouettes, colors, and fabrics that complement the bride's unique features. From showcasing her best assets to ensuring comfort and confidence, the consultation becomes a tailored exploration of outfit ideas that align with the bride's vision. The wardrobe stylist curates a selection of attire options that not only capture the essence of the occasion but also resonate with the bride's personal style, making her feel not just adorned but truly radiant on her special day.</p>
   </div>
 
 </div>
@@ -264,12 +265,12 @@ export default function Index() {
 
     <div className='w-100 row p-4'>
         <div className='col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-12'>
-          <Link className='fw-normal me-2' href="#" style={{textDecoration : 'none', color : 'black'}}>Home</Link>
-          <Link className='fw-normal me-2' href="/about-us" style={{textDecoration : 'none', color : 'black'}}>About Us</Link>
-          <Link className='fw-normal me-2' href="#" style={{textDecoration : 'none', color : 'black'}}>Services</Link>
-          <Link className='fw-normal me-2' href="#" style={{textDecoration : 'none', color : 'black'}}>Blogs</Link>
-          <Link className='fw-normal me-2' href="#" style={{textDecoration : 'none', color : 'black'}}>Career</Link>
-          <Link className='fw-normal me-2' href="/contact-us" style={{textDecoration : 'none', color : 'black'}}>Contact Us</Link>
+          <a className='fw-normal me-3' href="/" style={{textDecoration : 'none', color : 'black'}}>Home</a>
+          <a className='fw-normal me-3' href="/about-us" style={{textDecoration : 'none', color : 'black'}}>About Us</a>
+          <a className='fw-normal me-3' href="#" style={{textDecoration : 'none', color : 'black'}}>Services</a>
+          <a className='fw-normal me-3' href="/blog" style={{textDecoration : 'none', color : 'black'}}>Blogs</a>
+          <a className='fw-normal me-3' href="career" style={{textDecoration : 'none', color : 'black'}}>Career</a>
+          <a className='fw-normal me-3' href="/contact-us" style={{textDecoration : 'none', color : 'black'}}>Contact Us</a>
         </div>
         <div className='col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-12'>
           <div className='float-end'> 
