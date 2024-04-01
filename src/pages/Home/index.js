@@ -18,7 +18,7 @@ export default function index() {
          <div className='row' >
            <div className='col-sm-12 col-xs-12 col-md-8 col-lg-7 col-8'>
             <div class="my-5 py-5 align-items-center h-100 mx-5 w-100">
-                <img src={require('../../assets/images/group-header.png')} alt="Sub Heading" style={{display : 'block', width : width < 600 ?  '130%' :'90%'}} />
+                <img src={require('../../assets/images/bad.png')} alt="Sub Heading" style={{display : 'block', width : width < 600 ?  '130%' :'90%'}} />
 
                <div className='my-3 d-flex'>
                     <button className='border-0 p-0 m-0' style={{backgroundColor : 'transparent'}}>
@@ -31,7 +31,7 @@ export default function index() {
             </div>
            </div>
            <div className='col-xs-12 col-sm-12 col-md-4 col-xl-5 ' style={{position : 'relative'}}>
-             <img src={require('../../assets/images/lady.png')} width={'100%'} alt='Lady'/>
+             <img src={require('../../assets/images/bride.png')} width={'100%'} alt='Lady'/>
              <div style={{position :'absolute', top : '18%', left : -30}}>
                  <img src={require('../../assets/images/star.png')} style={{ zIndex : 999, width : 35, height : 35}}/>
              </div>
@@ -84,7 +84,7 @@ export default function index() {
                 <span style={{fontSize : width < 600 ? 18 : 24, color : '#FFFFFF'}} className='fw-bold'><FontAwesomeIcon icon={faAngleDown} /></span>
             </div>
             <p style={{color : '#FFFFFF', fontSize : 10, lineHeight : 1.5}} className='px-4 pb-4'>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+            Our paramount goal is ensuring unparalleled client happiness through a diverse array of services. From the artistic touch of our makeup artist to the transformative care of our dermatologist, the style expertise of our wardrobe stylist, and the well-being focus of our nutritionist – each facet is meticulously crafted to bring joy. The mystical insights of our tarot card reader and the empathetic support from our mental health coach complete the circle, fostering not just external radiance but inner contentment. We are dedicated to making every client's experience a harmonious journey, ensuring they emerge not only beautifully adorned but genuinely happy.
             </p>
            </div>
         </div>
@@ -93,39 +93,50 @@ export default function index() {
       <div className='p-4' style={{backgroundColor : '#00C5C1'}}>
         <div className='text-center fw-bold text-white' style={{fontSize : 24}}>Who We Are</div>
         <p className='mx-sm-3 mx-sm-3 mx-md-5 mx-lg-5 mx-xl-5 mx-3 px-xs-2 px-xs-2 px-md-5 mx-lg-5 px-lx-5 px-2 mt-4 mb-2 text-xs-left text-sm-left text-lg-center text-md-center text-xl-center text-start text-white' style={{fontSize : 12}}>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy textLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text <br></br>
+        In the month of September, our founder, Divya Chaudhary, a fervent and skilled makeup artist, embarked on a transformative journey. Fueled by passion and a desire to enhance the bridal experience, Divya diligently researched and expanded her vision. <br></br>
         <br></br>
 
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy textLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy textLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br><br></br>
+        The result is a curated array of services, including a dermatologist for radiant skin, a wardrobe stylist for impeccable ensembles, a nutritionist for holistic well-being, a tarot card reader for mystical insights, and a mental health coach for emotional support. Under Divya's guidance, we are committed to weaving together expertise and care, ensuring that each client's journey is not just beautiful but profoundly joyful.<br></br><br></br>
         </p>
       </div>
 
       <div className='p-5'>
-        <div className='row py-4' style={{backgroundColor : '#141414', borderRadius : 50}}>
-            <div className='col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-12 text-white p-4 px-5' >
-              <div className='fw-bold' style={{fontSize : 14}}>LOREM IPSUM</div>
-              <div className='fw-bold mb-3' style={{fontSize : 26}}>Featured Services</div>
-              <div className='fw-bold' style={{fontSize : 20}}>01 Makeup Artist</div>
-              <div className='fw-normal' style={{fontSize : 13, lineHeight : 1.5}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+        <h1>Featured Services</h1>
+        <div className='row py-4 text-black bg-red-900' style={{height:"200vh" }}>
+<div className="up" style={{width:"100%" , height:"50%", display:"flex" , alignItems:"center" , justifyContent:"center" , gap:"100px"}} >
+  <div className="card" style={{width:"33%" , height:"fit-content" , backgroundColor:"#00C5C1" , padding:"20px" , textAlign:"left" , border:"none" , borderRadius:"30px"} } >
+    <h3 style={{color:"#fff" , textAlign:"left"}} >01 Makeup Artist</h3>
+    <p style={{color:"#fff" , fontWeight:"300" , lineHeight:"25px" , fontSize:"16px"}} >Makeup Artist engages in a thorough exploration of the bride's face, delving into the intricacies of her unique features. With a keen understanding of face shape and structure, the artist expertly assesses the canvas, identifying key focal points and contours. Through this insightful analysis, tailored recommendations unfold, guiding the bride on the most flattering makeup choices for her distinct facial attributes. Whether it's enhancing cheekbones, defining eyes, or achieving a radiant complexion, the consultation becomes a collaborative journey where the artist imparts valuable insights, ensuring the bride feels</p>
+  </div>
+  <div className="card" style={{width:"33%" , height:"fit-content"  , backgroundColor:"#00C5C1" , padding:"20px" , textAlign:"left" , border:"none" , borderRadius:"30px"} } >
+    <h3 style={{color:"#fff" , textAlign:"left"}} >02 Dermatologist</h3>
+    <p style={{color:"#fff" , fontWeight:"300" , lineHeight:"25px" , fontSize:"16px"}} >In the personalized consultation with the Dermatologist, the focus extends beyond skincare—it becomes a dedicated exploration of the bride's unique skin characteristics. The dermatologist meticulously examines the skin's texture, tone, and any specific concerns the bride may have. Through this comprehensive analysis, tailored skincare recommendations emerge, addressing not only immediate concerns but also ensuring long-term skin health. The consultation becomes a collaborative dialogue, with the dermatologist providing valuable insights on a personalized skincare regimen. Read More</p>
+  </div>
+  <div className="card" style={{width:"33%" , height:"fit-content"  , backgroundColor:"#00C5C1" , padding:"20px" , textAlign:"left" , border:"none" , borderRadius:"30px"} } >
+    <h3 style={{color:"#fff" , textAlign:"left"}} >03 Nutritionist</h3>
+    <p style={{color:"#fff" , fontWeight:"300" , lineHeight:"25px" , fontSize:"16px"}} >In the tailored consultation with the Nutritionist, the bride's journey towards a radiant and healthy glow takes center stage. The nutritionist dives into a thorough discussion, understanding the bride's dietary preferences, lifestyle, and any specific health objectives. Through this insightful conversation, a personalized and sustainable diet plan unfolds, carefully curated to support not just physical health but also skin vibrancy and overall well-being. The nutritionist imparts valuable guidance on nourishing foods, hydration strategies, and lifestyle adjustments, ensuring that the bride's dietary choices align with her aspirations for a radiant appearance on her special day. This collaborative effort becomes a transformative experience, setting the foundation for not only a beautiful wedding but a continued journey of wellness.</p>
+  </div>
 
-              <div className='fw-bold my-4' style={{fontSize : 20, opacity : 0.6}}><span style={{}}>02</span> Dermatologist</div>
 
-              <div className='fw-bold my-4' style={{fontSize : 20, opacity : 0.6}}>Dietitian / Nutritionist</div>
-              
-              <div className='fw-bold my-4' style={{fontSize : 20, opacity : 0.6}}>Mental Health Coach</div>
+</div>
+<div className="down" style={{width:"100%" , height:"50%" ,display:"flex" , alignItems:"center" , justifyContent:"center" , gap:"100px"}}  >
+<div className="card" style={{width:"33%" ,height:"fit-content" , backgroundColor:"#00C5C1" , padding:"20px" , textAlign:"left" , border:"none" , borderRadius:"30px"} } >
+    <h3 style={{color:"#fff" , textAlign:"left"}} >04 Mental Health Coach </h3>
+    <p style={{color:"#fff" , fontWeight:"300" , lineHeight:"25px" , fontSize:"16px"}} >In the empathetic consultation with the Mental Health Coach, the focus shifts to the bride's emotional well-being, recognizing the significance of mental health on her overall wedding experience. The mental health coach engages in a compassionate dialogue, exploring the bride's emotions, stressors, and aspirations. Together, they navigate through strategies to manage pre-wedding jitters, set realistic expectations, and cultivate a positive mindset. The consultation becomes a safe space for the bride to express her feelings and receive practical tools for emotional resilience. From mindfulness techniques to personalized coping strategies, the mental health coach ensures the bride embarks on her wedding journey not only looking radiant but feeling emotionally empowered, ready to embrace the joy and challenges that come with this momentous occasion.</p>
+  </div>
+  <div className="card" style={{width:"33%" , height:"fit-content"  , backgroundColor:"#00C5C1" , padding:"20px" , textAlign:"left" , border:"none" , borderRadius:"30px"} } >
+    <h3 style={{color:"#fff" , textAlign:"left"}} >05 Tarot Card Reader</h3>
+    <p style={{color:"#fff" , fontWeight:"300" , lineHeight:"25px" , fontSize:"16px"}} >In the enchanting consultation with the Tarot Card Reader, the bride embarks on a mystical exploration of her journey towards matrimony. The tarot card reader creates a sacred space, inviting the bride to share her hopes and dreams. Through the ancient art of tarot, the reader unveils insights into the bride's path, offering guidance and perspective on the unfolding chapters of her life. The consultation becomes a captivating and introspective experience, blending spiritual wisdom with the bride's personal narrative. The tarot card reader serves as a gentle guide, providing symbolic interpretations and encouraging reflection, adding a magical dimension to the bride's preparations. This unique and spiritual consultation aims to infuse the bride's wedding journey with a sense of wonder and purpose, ensuring she steps into her new chapter with clarity and inspiration.</p>
+  </div>
+  <div className="card" style={{width:"33%" ,height:"fit-content" , backgroundColor:"#00C5C1" , padding:"20px" , textAlign:"left" , border:"none" , borderRadius:"30px"} } >
+    <h3 style={{color:"#fff" , textAlign:"left"}} >06 Wardrobe Stylist </h3>
+    <p style={{color:"#fff" , fontWeight:"300" , lineHeight:"25px" , fontSize:"16px"}} >In the personalized consultation with the Wardrobe Stylist, the bride's journey towards finding the perfect ensemble becomes a collaborative and empowering experience. The wardrobe stylist begins by understanding the bride's body shape, style preferences, and the overall aesthetic she envisions for her wedding day. Through thoughtful dialogue, the stylist offers expert insights into flattering silhouettes, colors, and fabrics that complement the bride's unique features. From showcasing her best assets to ensuring comfort and confidence, the consultation becomes a tailored exploration of outfit ideas that align with the bride's vision. The wardrobe stylist curates a selection of attire options that not only capture the essence of the occasion but also resonate with the bride's personal style, making her feel not just adorned but truly radiant on her special day.</p>
+  </div>
 
-              <div className='fw-bold my-4' style={{fontSize : 20, opacity : 0.6}}>Tarot Card Reader</div>
+</div>
 
-              <div className='fw-bold my-4' style={{fontSize : 20, opacity : 0.6}}>Wardrobe Stylist</div>
-            </div>
-            <div className='col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-12'>
-               <div className='w-100 pe-4'>
-                <img src={require('../../assets/images/teach.png')} className='w-100' style={{height : 330}}/>
-                <div className='text-white px-3 ps-4 py-4' style={{fontSize : 11, lineHeight : 1.5, borderLeftWidth : 2, borderLeftColor : '#FFFFFF'}}>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing and typesetting industry printing...
-                </div>
-               </div>
-            </div>
+
+          
         </div>
       </div>
 
@@ -165,6 +176,7 @@ export default function index() {
                 <div className='col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-12 my-2'>
                   <div className='mx-1'>
                   <BlogCard key={index}/>
+
                   </div>
                 </div>
               )

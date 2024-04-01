@@ -23,8 +23,8 @@ export default function Header() {
                     <li className='mx-md-4 mx-xl-4  mx-sm-1 mx-0'><Link to="/" className="nav-link px-2 link-dark">Home</Link></li>
                     <li className='mx-md-4 mx-xl-4 mx-sm-1 mx-0 '><Link to="/about-us" className="nav-link px-2 link-dark">About Us</Link></li>
                     <li className='mx-md-4 mx-xl-4 mx-sm-1 mx-0'><Link to="#" className="nav-link px-2 link-dark">Services</Link></li>
-                    <li className='mx-md-4 mx-xl-4 mx-sm-1 mx-0'><Link to="#" className="nav-link px-2 link-dark">Blog</Link></li>
-                    <li className='mx-md-4 mx-xl-4 mx-sm-1 mx-0 '><Link to="#" className="nav-link px-2 link-dark">Career</Link></li>
+                    <li className='mx-md-4 mx-xl-4 mx-sm-1 mx-0'><Link to="/blog" className="nav-link px-2 link-dark">Blog</Link></li>
+                    <li className='mx-md-4 mx-xl-4 mx-sm-1 mx-0 '><Link to="/career" className="nav-link px-2 link-dark">Career</Link></li>
                     <li className='mx-md-4 mx-xl-4 mx-sm-1 mx-0 '><Link to="/contact-us" className="nav-link px-2 link-dark">Contact Us</Link></li>
                 </ul>
             }
