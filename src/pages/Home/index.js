@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 import { useWindowSize } from '../../utitlity/helper'
 
 
-export default function index() {
+export default function Index() {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const [width, height] = useWindowSize();
   return (
@@ -52,7 +52,7 @@ export default function index() {
 
       <div className='row m-sm-2 m-xs-2 m-md-5 m-lg-5 m-lg-5 m-3'>
         <div className='col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7'>
-           <span style={{color : '#00C5C1', letterSpacing : 2, fontSize : 20}} className='fw-bolder'>About us</span>
+           <span style={{color : '#00C5C1', letterSpacing : 2, fontSize : 30}} className='fw-bolder'>About us</span>
            <div className='fw-bold my-4' style={{fontSize : width < 600 ? 22 : 28, letterSpacing : 3, lineHeight : 1}}>Join Us on the Journey to Self-Care and Self-Expression</div>
            <p style={{fontSize : 12, color : '#AFAFAF'}} className='my-3'>Welcome to Bridechilla, where the pursuit of well-being meets the artistry of self-expression. Our mission is to unite a diverse team of dedicated experts, all focused on enhancing your overall wellness and ensuring you look and feel your absolute best. With Bridechilla, you gain direct access to a curated selection of top-notch professionals spanning various fields, right at your fingertips. <br></br><br></br>
 
@@ -91,7 +91,7 @@ export default function index() {
       </div>
 
       <div className='p-4' style={{backgroundColor : '#00C5C1'}}>
-        <div className='text-center fw-bold text-white' style={{fontSize : 24}}>Who We Are</div>
+        <div className='text-center fw-bold text-white' style={{fontSize : 40}}>Who We Are</div>
         <p className='mx-sm-3 mx-sm-3 mx-md-5 mx-lg-5 mx-xl-5 mx-3 px-xs-2 px-xs-2 px-md-5 mx-lg-5 px-lx-5 px-2 mt-4 mb-2 text-xs-left text-sm-left text-lg-center text-md-center text-xl-center text-start text-white' style={{fontSize : 12}}>
         In the month of September, our founder, Divya Chaudhary, a fervent and skilled makeup artist, embarked on a transformative journey. Fueled by passion and a desire to enhance the bridal experience, Divya diligently researched and expanded her vision. <br></br>
         <br></br>
@@ -273,9 +273,12 @@ export default function index() {
         </div>
         <div className='col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-12'>
           <div className='float-end'> 
-            <img src={require('../../assets/images/Facebook.png')} style={{width : 20, marginRight : 10}}/>
-            <img src={require('../../assets/images/Insta.png')} style={{width : 20, marginRight : 10}}/>
-            <img src={require('../../assets/images/Twitter.png')} style={{width : 20, marginRight : 10}}/>
+          <a style={{textDecoration:"none" , color:"black" , margin:"10px"}} href="/cancel">Cancellation Process</a>
+          <a style={{textDecoration:"none" , color:"black" , margin:"10px"}}  href="/payment">Payment Breakups</a>
+          <a style={{textDecoration:"none" , color:"black" , margin:"20px"}}  href="/pp">Privacy Policy</a>
+           <Link href=""><img src={require('../../assets/images/Facebook.png')} style={{width : 20, marginRight : 10}}/></Link> 
+           <a href="https://www.instagram.com/bridechillaofficial?igsh=MWF5bXhpN3d6ZTgxNw%3D%3D&utm_source=qr"><img src={require('../../assets/images/Insta.png')} style={{width : 20, marginRight : 10}}/></a>  
+           <a href="https://www.instagram.com/bridechillaofficial?igsh=MWF5bXhpN3d6ZTgxNw%3D%3D&utm_source=qr"> <img src={require('../../assets/images/Twitter.png')} style={{width : 20, marginRight : 10}}/></a>
           </div>
         </div>
     </div>

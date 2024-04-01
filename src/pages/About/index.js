@@ -49,9 +49,12 @@ export default function index() {
         </div>
         <div className='col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-12'>
           <div className='float-end'> 
-            <img src={require('../../assets/images/Facebook.png')} style={{width : 20, marginRight : 10}}/>
-            <img src={require('../../assets/images/Insta.png')} style={{width : 20, marginRight : 10}}/>
-            <img src={require('../../assets/images/Twitter.png')} style={{width : 20, marginRight : 10}}/>
+          <a style={{textDecoration:"none" , color:"black" , margin:"10px"}} href="/cancel">Cancellation Process</a>
+          <a style={{textDecoration:"none" , color:"black" , margin:"10px"}}  href="/payment">Payment Breakups</a>
+          <a style={{textDecoration:"none" , color:"black" , margin:"20px"}}  href="/pp">Privacy Policy</a>
+           <Link href=""><img src={require('../../assets/images/Facebook.png')} style={{width : 20, marginRight : 10}}/></Link> 
+           <a href="https://www.instagram.com/bridechillaofficial?igsh=MWF5bXhpN3d6ZTgxNw%3D%3D&utm_source=qr"><img src={require('../../assets/images/Insta.png')} style={{width : 20, marginRight : 10}}/></a>  
+           <a href="https://www.instagram.com/bridechillaofficial?igsh=MWF5bXhpN3d6ZTgxNw%3D%3D&utm_source=qr"> <img src={require('../../assets/images/Twitter.png')} style={{width : 20, marginRight : 10}}/></a>
           </div>
         </div>
     </div>

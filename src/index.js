@@ -9,6 +9,9 @@ import About from './pages/About/index';
 import Contact from './pages/Contact/index';
 import Career from './pages/Career/index';
 import Blog from './pages/Blog/index'
+import Cancellation from './pages/Cancellation/index'
+import Payment from './pages/Payment/index'
+import Privacy from './pages/Privacy/index'
 import './style.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -22,6 +25,11 @@ root.render(
         <Route path='/contact-us' element={<Contact />} />
         <Route path='/career' element={<Career />} />
         <Route path='/blog' element={<Blog />} />
+        <Route path='/cancel' element={<Cancellation />} />
+        <Route path='/payment' element={<Payment />} />
+        <Route path='/pp' element={<Privacy />} />
+
+
       </Routes>
       </div>
     </BrowserRouter>
