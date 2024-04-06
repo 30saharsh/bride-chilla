@@ -49,8 +49,10 @@ Please Note: No refund will be given in case of lack of accuracy of any consulta
 [xi]  If the company has disbursed the GST amount to the consultant, and the consultant neglects to remit it to the government within the specified timeframe, the company retains the prerogative to withhold all subsequent payment and suspend or terminate the consultants profile until the consultant rectifies this default.
 <br /><br />
 [xii] Regardless of the aforementioned terms, the payment to the consultant for consultations where offers are provided to customers during booking will be proportionate to offer provided by Bridechilla. If the amount is less than 50% the consultant will receive a reduced share, reflcting the deduction due to the promotional offer given to the customer. The consultant acknowledges that their share may decrease if they choose to participate in any voluntary promotions offered by the company, such as boosting their profile visibility. Any such reduction will be communicated to the consultant beforehand, and it is entirely optional for the consultant to participate in such promtions.
-
+ <br /> <br />
+ [xiii] The pricing policy will offer a flexible consultant rate ranging from 15/- to 150/- Indian rupees per minute.
        </p>
+       
     </div>
     <div className='w-100 row p-4'>
       <div className='col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-12'>

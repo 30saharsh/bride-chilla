@@ -11,7 +11,7 @@ const index = () => {
       <span className='fw-bold' style={{fontSize : 22}}>PRIVACY POLICY
 </span><br></br><br></br>
        <p className='' style={{color : 'gray'}}>
- The pricing policy will offer a flexible consultant rate ranging from 15/- to 150/- Indian rupees per minute.
+       The User hereby consents, expresses and agrees that the User has read and fully understand the Privacy Policy of the Website. The User further consents that the terms and contents of such Privacy policy is acceptable to the User inclusive of any update/alteration/change made and duly displayed on the Website.
        </p>
     </div>
     </div>
