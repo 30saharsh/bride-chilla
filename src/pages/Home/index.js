@@ -280,7 +280,7 @@ export default function Index() {
           <a style={{textDecoration:"none" , color:"black" , margin:"20px"}}  href="/tc">T & C</a>
            <a href=""><img src={require('../../assets/images/Facebook.png')} style={{width : 15, marginRight : 10}}/></a> 
            <a href="https://www.instagram.com/bridechillaofficial?igsh=MWF5bXhpN3d6ZTgxNw%3D%3D&utm_source=qr"><img src={require('../../assets/images/Insta.png')} style={{width : 15, marginRight : 10}}/></a>  
-           <a href="https://www.instagram.com/bridechillaofficial?igsh=MWF5bXhpN3d6ZTgxNw%3D%3D&utm_source=qr"> <img src={require('../../assets/images/Twitter.png')} style={{width : 15, marginRight : 10}}/></a>
+           <a href="https://www.instagram.com/bridechillaofficial?igsh=MWF5bXhpN3d6ZTgxNw%3D%3D&utm_source=qr"> <img src={require('../../assets/images/Twitter.png')} style={{width : 15, marginRight : 20}}/></a>
           </div>
         </div>
     </div>

@@ -33,7 +33,7 @@ export default function Header() {
                
                      {/* <Button className={'d-xs-block d-sm-block d-lg-none d-md-none d-block float-end'} title={<FontAwesomeIcon icon={faDownload} />}/> */}
 
-                     <Button className={'d-xs-none d-sm-none d-lg-block d-md-block d-none float-end'} title={'Download App'}/>
+                     <Button className={'d-xs-none d-sm-none d-lg-block d-md-block d-none '} title={'Download App'}/>
                 {
                     width < 600 &&
                     (
