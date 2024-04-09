@@ -35,7 +35,11 @@
     /* background-color: yellow; */
 }
 .float-end{
-    width: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130%;
+    height: fit-content;
     /* background-color: red; */
 }
 .a{

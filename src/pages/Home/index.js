@@ -263,17 +263,16 @@ export default function Index() {
         
       </div> */}
 
-    <div className='w-100 row p-4'>
-        <div className='col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-12'>
+    <div className='w-100 row p-4'  >
+        <div className='col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-12' style={{ display:"flex", alignItems:"center", justifyContent:"center"}} >
           <a className='fw-normal me-3' href="/" style={{textDecoration : 'none', color : 'black'}}>Home</a>
           <a className='fw-normal me-3' href="/about-us" style={{textDecoration : 'none', color : 'black'}}>About Us</a>
           <a className='fw-normal me-3' href="#" style={{textDecoration : 'none', color : 'black'}}>Services</a>
           <a className='fw-normal me-3' href="/blog" style={{textDecoration : 'none', color : 'black'}}>Blogs</a>
           <a className='fw-normal me-3' href="career" style={{textDecoration : 'none', color : 'black'}}>Career</a>
-          <a className='fw-normal me-3' href="/contact-us" style={{textDecoration : 'none', color : 'black'}}>Contact Us</a>
         </div>
         <div className='col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-12'>
-          <div className='w-100 float-end' style={{backgroundColor:"" , marginRight:'20px'}} > 
+          <div className='float-end' > 
           <a style={{textDecoration:"none" , color:"black" , margin:"10px"}} href="/cancel">Cancellation Process</a>
           <a style={{textDecoration:"none" , color:"black" , margin:"10px"}}  href="/payment">Payment Breakups</a>
           <a style={{textDecoration:"none" , color:"black" , margin:"20px"}}  href="/pp">Privacy Policy</a>
