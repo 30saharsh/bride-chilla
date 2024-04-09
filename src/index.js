@@ -12,6 +12,7 @@ import Blog from './pages/Blog/index'
 import Cancellation from './pages/Cancellation/index'
 import Payment from './pages/Payment/index'
 import Privacy from './pages/Privacy/index'
+import TermsConditions from './pages/TermsConditions/index'
 import './style.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -28,6 +29,7 @@ root.render(
         <Route path='/cancel' element={<Cancellation />} />
         <Route path='/payment' element={<Payment />} />
         <Route path='/pp' element={<Privacy />} />
+        <Route path='/tc' element={<TermsConditions />} />
 
 
       </Routes>
