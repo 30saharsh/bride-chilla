@@ -34,6 +34,10 @@
 .center{
     /* background-color: yellow; */
 }
+.float-end{
+    width: 110%;
+    /* background-color: red; */
+}
 .a{
     margin-left: 42px;
     margin-top: 22px;

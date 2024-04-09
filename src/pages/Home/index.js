@@ -278,9 +278,9 @@ export default function Index() {
           <a style={{textDecoration:"none" , color:"black" , margin:"10px"}}  href="/payment">Payment Breakups</a>
           <a style={{textDecoration:"none" , color:"black" , margin:"20px"}}  href="/pp">Privacy Policy</a>
           <a style={{textDecoration:"none" , color:"black" , margin:"20px"}}  href="/tc">T & C</a>
-           <Link href=""><img src={require('../../assets/images/Facebook.png')} style={{width : 15, marginRight : 10}}/></Link> 
+           <a href=""><img src={require('../../assets/images/Facebook.png')} style={{width : 15, marginRight : 10}}/></a> 
            <a href="https://www.instagram.com/bridechillaofficial?igsh=MWF5bXhpN3d6ZTgxNw%3D%3D&utm_source=qr"><img src={require('../../assets/images/Insta.png')} style={{width : 15, marginRight : 10}}/></a>  
-           <a href="https://www.instagram.com/bridechillaofficial?igsh=MWF5bXhpN3d6ZTgxNw%3D%3D&utm_source=qr"> <img src={require('../../assets/images/Twitter.png')} style={{width : 15, marginRight : 10}}/></a>
+           <a href="https://www.instagram.com/bridechillaofficial?igsh=MWF5bXhpN3d6ZTgxNw%3D%3D&utm_source=qr"> <img src={require('../../assets/images/Twitter.png')} style={{width : 15, marginRight : 20}}/></a>
           </div>
         </div>
     </div>
